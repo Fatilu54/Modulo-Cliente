@@ -1,0 +1,210 @@
+/* ---------Pagina principal----------*/
+.logo-sosneado {
+  height: 80px; /* Ajusta este valor para cambiar la altura del logo */
+  width: auto;  /* Mantén la proporción del logo */
+}
+
+
+.nav-left {
+  margin-right: 20px;
+  align-items: center;
+}
+
+nav {
+  background-color: #EEDEB8;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+body {
+  background-color: #DDC5A1
+}
+
+.navbar {
+  background-color: #EEDEB8;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+/* Estilo para el enlace "Mi pedido" */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 30px 12px;
+}
+
+.nav-links li {
+  margin: 0;
+}
+
+.nav-links a {
+  color: rgb(48, 47, 47);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.home-title {
+  text-align: left;
+  margin-left: 160px;
+  margin-top: 30px;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+}
+
+.home-container button {
+  margin: 10px 0;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #997053;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.home-container button:hover {
+  background-color: #72543e; /* Cambia el color al pasar el ratón por encima */
+}
+
+
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; /* Puedes ajustar el tamaño para centrar el formulario verticalmente */
+}
+
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 250px; /* Puedes cambiar este valor para ajustar el ancho de los botones */
+  height: 50px; /* Puedes cambiar este valor para ajustar la altura de los botones */
+  text-align: center;
+  border-radius: 5px; /* Añade bordes redondeados, si lo deseas */
+  border: none; /* Elimina el borde predeterminado del botón */
+  background-color: #000000; /* Cambia el color de fondo según lo que prefieras */
+  color: white; /* Cambia el color del texto según prefieras */
+}
+
+button:hover {
+  background-color: #3b3b3b; /* Cambia el color al pasar el ratón por encima */
+}
+
+
+/* ---------Productos----------*/
+
+
+.productos-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.producto-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.producto-card h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.producto-card p {
+  margin: 5px 0;
+}
+
+
+/* Estilo para el botón de la flecha */
+.back-button {
+  top: 20px;
+  left: 20px;
+}
+
+.flecha-boton {
+  height: 40px;  /* Ajusta el tamaño de la flecha */
+  width: auto;   /* Mantén la proporción de la imagen */
+  cursor: pointer;  /* Cambia el cursor a una mano cuando pases sobre la imagen */
+}
+
+
+
+/*Formulario*/
+
+.register-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+/* Botón del formulario */
+.form-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #000000;
+  color: white;
+  font-size: 1em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #3b3b3b;
+}
+
+
